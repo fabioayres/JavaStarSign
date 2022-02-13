@@ -10,16 +10,21 @@ public class StarSign {
         
         printStars(3);
         System.out.println("\n---");  // printing --- between the shapes
-        printSquare(4);
-        System.out.println("\n---");
-        printRectangle(5, 6);
-        System.out.println("\n---");
-        printTriangle(3);
-        System.out.println("\n---");
+//        printSquare(4);
+//        System.out.println("\n---");
+//        printRectangle(5, 6);
+//        System.out.println("\n---");
+//        printTriangle(3);
+//        System.out.println("\n---");
     }
 
     public static void printStars(int number) {
         // first part of the exercise
+        for (int i = 1; i <= number; i++){
+            System.out.print("*");
+        }
+        System.out.println(" ");
+        
     }
 
     public static void printSquare(int size) {
